@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "IranYekan";
+    src:
+        url("assets/font/IRANyekan.ttf");
+}
+
+* {
+    font-family: "IranYekan";
+}
+
+.question-btn {
+    background-color: #0076A6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question-btn:hover {
+    background-color: #0090c9;
+}
