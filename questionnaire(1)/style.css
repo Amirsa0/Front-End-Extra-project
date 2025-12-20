@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "IranYekan";
+    src:
+        url("assets/font/IRANyekan.ttf");
+}
+
+* {
+    font-family: "IranYekan";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: #EAEBFD;
+    display: flex;
+    justify-content: center;
+}
+
+.quiz-container {
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.question {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.answers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+button {
+    min-width: 150px;
+    background-color: #DFDBF2;
+    border: 1px solid #c2bde0;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button .number {
+    width: 1.75rem;
+    height: 1.75rem;
+    background-color: #794997;
+    color: white;
+    border-radius: 4px;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button .text {
+    text-align: right;
+    flex-grow: 1;
+}
